@@ -1,8 +1,11 @@
 h1{
   text-align: center;
+  color: white;
+  background-color: black;
+  padding: 30px 0px;
 }
 #mainBody{
-
+  padding: 10%;
 }
 #bodyLeft{
   float: left;
