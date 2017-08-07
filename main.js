@@ -10,6 +10,10 @@ fetch("https://api.github.com/users/jtcanfield")
         <h1>${data.name}</h1>
         <div id="mainBody">
         <h2>The Basics</h2>
+        <p>Name: ${data.name}</p>
+        <p>GitHub URL: ${data.html_url}</p>
+        <p>Email: N/A</p>
+        <p>Company: ${data.company}</p>
         </div>
         `
         console.log(holder);
