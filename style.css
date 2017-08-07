@@ -9,18 +9,20 @@ h1{
 }
 #bodyLeft{
   float: left;
-  display: inline;
+  display: inline-block;
   width: 40%;
 }
 #bodyCenter{
-  display: inline;
-  width: 40%;
+  display: inline-block;
+  width: 50%;
+}
+#bodyCenter p{
+  padding-left: 10px;
+  border-left: 1px dotted grey;
 }
 img{
-  height: 100px;
+  height: 110px;
   border-radius: 100%;
-  display: block;
-  /*position: relative;*/
   float: right;
 }
 @media (max-width: 900px) {
