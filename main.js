@@ -1,3 +1,4 @@
+var htmlBody = document.querySelector("body");
 fetch("https://api.github.com/users/jtcanfield")
   .then(
     function(response){
@@ -16,6 +17,7 @@ fetch("https://api.github.com/users/jtcanfield")
         <p>Company: ${data.company}</p>
         </div>
         `
+        htmlBody.innerHTML = holder;
         console.log(holder);
       })
     }
