@@ -13,12 +13,12 @@ fetch("https://api.github.com/users/jtcanfield")
         <h2>The Basics</h2>
         <p>Name: ${data.name}</p>
         <p>GitHub URL: ${data.html_url}</p>
-        <p>Email: N/A</p>
+        <p>Email: ${data.email}</p>
         <p>Company: ${data.company}</p>
+        <p>Website: ${data.blog}</p>
         </div>
         `
         htmlBody.innerHTML = holder;
-        console.log(holder);
       })
     }
   )
