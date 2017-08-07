@@ -12,6 +12,9 @@ h1{
   display: inline-block;
   width: 40%;
 }
+#bodyLeft span{
+  color: blue;
+}
 #bodyCenter{
   display: inline-block;
   width: 50%;
