@@ -19,8 +19,8 @@ fetch("https://api.github.com/users/jtcanfield")
             <p>Website: ${data.blog}</p>
           </div>
           <div id="bodyRight">
-            <h2>The Basics</h2>
-
+            <h2>The Story</h2>
+            <p>${data.bio}</p>
           </div>
         </div>
         `
