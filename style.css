@@ -5,8 +5,12 @@ h1{
 
 }
 #bodyLeft{
-
+  float: left;
+  display: inline;
+  width: 45%;
 }
 #bodyRight{
   float: right;
+  display: inline;
+  width: 45%;
 }
