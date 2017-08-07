@@ -10,12 +10,18 @@ fetch("https://api.github.com/users/jtcanfield")
         let holder = `
         <h1>${data.name}</h1>
         <div id="mainBody">
-        <h2>The Basics</h2>
-        <p>Name: ${data.name}</p>
-        <p>GitHub URL: ${data.html_url}</p>
-        <p>Email: ${data.email}</p>
-        <p>Company: ${data.company}</p>
-        <p>Website: ${data.blog}</p>
+          <div id="bodyLeft">
+            <h2>The Basics</h2>
+            <p>Name: ${data.name}</p>
+            <p>GitHub URL: ${data.html_url}</p>
+            <p>Email: ${data.email}</p>
+            <p>Company: ${data.company}</p>
+            <p>Website: ${data.blog}</p>
+          </div>
+          <div id="bodyRight">
+            <h2>The Basics</h2>
+
+          </div>
         </div>
         `
         htmlBody.innerHTML = holder;
