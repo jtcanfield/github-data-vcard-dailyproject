@@ -15,10 +15,13 @@ h1{
   width: 45%;
 }
 #bodyRight{
-  height: 60px;
   float: right;
   display: inline;
   width: 45%;
+}
+#bodyRight img{
+  height: 60px;
+  border-radius: 100%;
 }
 @media (max-width: 900px)
 and (orientation: portrait) {
