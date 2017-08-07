@@ -13,7 +13,7 @@ fetch("https://api.github.com/users/jtcanfield")
           <div id="bodyLeft">
             <h2>The Basics</h2>
             <p>Name: ${data.name}</p>
-            <p>GitHub URL: ${data.html_url}</p>
+            <p>GitHub URL: <a href="${data.html_url}">@jtcanfield</a></p>
             <p>Email: ${data.email}</p>
             <p>Company: ${data.company}</p>
             <p>Website: <a href="${data.blog}">jtcanfield.github.io</a></p>
