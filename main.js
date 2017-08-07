@@ -1,5 +1,4 @@
-.fetch("https://api.github.com/users/jtcanfield")
-console.log("Hello");
+fetch("https://api.github.com/users/jtcanfield")
   .then(
     function(response){
       if (response.status !== 200){
