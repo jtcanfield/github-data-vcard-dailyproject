@@ -20,7 +20,7 @@ fetch("https://api.github.com/users/jtcanfield")
           </div>
           <div id="bodyCenter">
             <h2>The Story</h2>
-            <p>${data.bio}<img src="${data.avatar_url}"></p>
+            <p><img src="${data.avatar_url}">${data.bio}</p>
           </div>
         </div>
         `
