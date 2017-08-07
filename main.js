@@ -8,6 +8,9 @@ fetch("https://api.github.com/users/jtcanfield")
       response.json().then(function(data){
         let holder = `
         <h1>${data.name}</h1>
+        <div id="mainBody">
+        <h2>The Basics</h2>
+        </div>
         `
         console.log(holder);
       })
