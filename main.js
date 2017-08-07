@@ -18,9 +18,12 @@ fetch("https://api.github.com/users/jtcanfield")
             <p>Company: ${data.company}</p>
             <p>Website: ${data.blog}</p>
           </div>
-          <div id="bodyRight">
+          <div id="bodyCenter">
             <h2>The Story</h2>
             <p>${data.bio}</p>
+          </div>
+          <div id="bodyRight">
+            <img src="${data.avatar_url}"></img>
           </div>
         </div>
         `
