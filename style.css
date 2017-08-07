@@ -14,3 +14,27 @@ h1{
   display: inline;
   width: 45%;
 }
+#bodyRight{
+  height: 60px;
+  float: right;
+  display: inline;
+  width: 45%;
+}
+@media (max-width: 900px)
+and (orientation: portrait) {
+  #bodyLeft{
+    float: left;
+    display: inline;
+    width: 45%;
+  }
+  #bodyCenter{
+    float: right;
+    display: inline;
+    width: 45%;
+  }
+  #bodyRight{
+    text-align: center;
+    display: block;
+    width: 30%;
+  }
+}
