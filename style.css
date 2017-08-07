@@ -7,21 +7,17 @@ h1{
 #bodyLeft{
   float: left;
   display: inline;
-  width: 45%;
+  width: 40%;
 }
 #bodyCenter{
-  float: right;
   display: inline;
-  width: 45%;
+  width: 40%;
 }
-#bodyRight{
-  float: right;
-  display: inline;
-  width: 45%;
-}
-#bodyRight img{
+img{
   height: 60px;
   border-radius: 100%;
+  display: inline;
+  float: right;
 }
 @media (max-width: 900px)
 and (orientation: portrait) {
@@ -34,10 +30,5 @@ and (orientation: portrait) {
     float: right;
     display: inline;
     width: 45%;
-  }
-  #bodyRight{
-    text-align: center;
-    display: block;
-    width: 30%;
   }
 }
