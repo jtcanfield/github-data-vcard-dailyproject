@@ -16,7 +16,7 @@ fetch("https://api.github.com/users/jtcanfield")
             <p>GitHub URL: ${data.html_url}</p>
             <p>Email: ${data.email}</p>
             <p>Company: ${data.company}</p>
-            <p>Website: ${data.blog}</p>
+            <p>Website: <a href="${data.blog}">jtcanfield.github.io</a></p>
           </div>
           <div id="bodyCenter">
             <h2>The Story</h2>

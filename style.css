@@ -19,8 +19,7 @@ img{
   display: inline;
   float: right;
 }
-@media (max-width: 900px)
-and (orientation: portrait) {
+@media (max-width: 900px) {
   #bodyLeft{
     float: left;
     display: inline;
