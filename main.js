@@ -6,7 +6,10 @@ fetch("https://api.github.com/users/jtcanfield")
         return
       }
       response.json().then(function(data){
-        console.log(data);
+        let holder = `
+        <h1>${data.name}</h1>
+        `
+        console.log(holder);
       })
     }
   )
